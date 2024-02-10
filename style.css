@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "HelveticaNeueRegular";
+    src: url("./font/HelveticaNeueRegular.otf") format("OpenType");
+}
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+li{
+    list-style-type: none;
+    padding-left: 0;
+    letter-spacing: 0.25rem;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+body{
+    font-family: "HelveticaNeueRegular";
+    justify-content: center;
+    background-color: #010001;
+}
+.container{
+    flex-direction: column;
+    width: 60rem;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.wrapper{
+    width: 100%;
+}
+.text-wrapper{
+    justify-content: center;
+}
+.text{
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.35rem;
+}
+.keyboard-wrapper{
+    margin-top: 4rem;
+}
+.rows{
+    justify-content: space-between;
+}
+.key-style{
+    border-radius: 0.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink{
+    background-color: #DD143E;
+}
+.lavender{
+    background-color: #FF7D52;
+}
+.orange{
+    background-color: #FF8B02;
+}
+.yellow{
+ background-color: #FFD504;
+}
+.cream{
+    background-color: #F2E48F;
+}
+.first-row , .second-row , .third-row , .forth-row{
+    margin-bottom: 1.5rem;
+}
+#BACKSPACE , #TAB{
+    width: 5rem;
+}
+#CAPS , #ENTER{
+    width: 5.5rem;
+}
+#SHIFT{
+    width: 7rem;
+}
+.notic{
+    margin-top: 2rem;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: 0.35rem;
+}
+.hit {
+	-webkit-animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes hit {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes hit {
+  0% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
