@@ -79,24 +79,48 @@ body {
     align-items: center;
 }
 
+.key-style:hover {
+    color: #fff;
+}
+
 .pink {
     background-color: #DD143E;
+}
+
+.pink:hover {
+    background-color: hsla(347, 83%, 47%, 0.700);
 }
 
 .lavender {
     background-color: #FF7D52;
 }
 
+.lavender:hover {
+    background-color: hsla(15, 100%, 66%, 0.700);
+}
+
 .orange {
     background-color: #FF8B02;
+}
+
+.orange:hover {
+    background-color: hsla(32, 100%, 50%, 0.700);
 }
 
 .yellow {
     background-color: #FFD504;
 }
 
+.yellow:hover {
+    background-color: hsla(50, 100%, 51%, 0.700);
+}
+
 .cream {
     background-color: #F2E48F;
+}
+
+.cream:hover {
+    background-color: hsla(52, 79%, 75%, 0.700);
 }
 
 .first-row,
