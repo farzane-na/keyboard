@@ -79,6 +79,18 @@ body {
     align-items: center;
 }
 
+.space {
+    background-color: rgb(162, 162, 243);
+    border-radius: 0.8rem;
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
 .key-style:hover {
     color: #fff;
 }
