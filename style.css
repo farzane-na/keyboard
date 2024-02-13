@@ -17,6 +17,7 @@ li {
     list-style-type: none;
     padding-left: 0;
     letter-spacing: 0.25rem;
+    cursor: pointer;
 }
 
 .d-flex {
