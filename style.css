@@ -2,52 +2,74 @@
     font-family: "HelveticaNeueRegular";
     src: url("./font/HelveticaNeueRegular.otf") format("OpenType");
 }
-*,*::after,*::before{
+
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
     outline: none;
 }
-li{
+
+li {
     list-style-type: none;
     padding-left: 0;
     letter-spacing: 0.25rem;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     align-items: center;
 }
-body{
+
+body {
     font-family: "HelveticaNeueRegular";
     justify-content: center;
     background-color: #010001;
 }
-.container{
+
+.container {
     flex-direction: column;
     width: 60rem;
     margin-top: 5rem;
     padding: 1rem;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
 }
-.text-wrapper{
+
+.text-wrapper {
     justify-content: center;
+    background: rgba(130, 129, 129, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(130, 129, 129, 0.51);
+    min-height: 50px;
+    padding: 20px;
+    word-break: break-all;
 }
-.text{
+
+.text {
     justify-content: center;
     color: #fff;
     font-size: 1rem;
     letter-spacing: 0.35rem;
 }
-.keyboard-wrapper{
+
+.keyboard-wrapper {
     margin-top: 4rem;
 }
-.rows{
+
+.rows {
     justify-content: space-between;
 }
-.key-style{
+
+.key-style {
     border-radius: 0.8rem;
     width: 3.5rem;
     height: 3.5rem;
@@ -55,61 +77,80 @@ body{
     justify-content: center;
     align-items: center;
 }
-.pink{
+
+.pink {
     background-color: #DD143E;
 }
-.lavender{
+
+.lavender {
     background-color: #FF7D52;
 }
-.orange{
+
+.orange {
     background-color: #FF8B02;
 }
-.yellow{
- background-color: #FFD504;
+
+.yellow {
+    background-color: #FFD504;
 }
-.cream{
+
+.cream {
     background-color: #F2E48F;
 }
-.first-row , .second-row , .third-row , .forth-row{
+
+.first-row,
+.second-row,
+.third-row,
+.forth-row {
     margin-bottom: 1.5rem;
 }
-#BACKSPACE , #TAB{
+
+#BACKSPACE,
+#TAB {
     width: 5rem;
 }
-#CAPS , #ENTER{
+
+#CAPS,
+#ENTER {
     width: 5.5rem;
 }
-#SHIFT{
+
+#SHIFT {
     width: 7rem;
 }
-.notic{
+
+.notic {
     margin-top: 2rem;
     justify-content: center;
     color: #fff;
     letter-spacing: 0.35rem;
 }
+
 .hit {
-	-webkit-animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: hit 0.15s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes hit {
-  0% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
+    0% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
+
 @keyframes hit {
-  0% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
+    0% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
